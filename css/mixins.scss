@@ -1,0 +1,8 @@
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin anim {
+    transition: all .3s;
+}
