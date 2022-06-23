@@ -45,35 +45,93 @@
             <nav class="services">
                 <a href="" class="services__item">
                     <img src="img/svg/katolog.svg" alt="catalog">
-                    Каталог
+                    <span class="services__catalog">Каталог</span>
                 </a>
                 <a href="" class="services__item">
                     <img src="img/svg/Appoy.svg" alt="catalog">
                     Ремонт Apple
+                    <img src="img/svg/catalog-arrow.svg" alt="arrow" class="services__arrow">
                 </a>
                 <a href="" class="services__item">
                     <img src="img/svg/phoneRep.svg" alt="catalog">
                     Ремонт смартфонов
+                    <img src="img/svg/catalog-arrow.svg" alt="arrow" class="services__arrow">
                 </a>
                 <a href="" class="services__item">
                     <img src="img/svg/tebletRep.svg" alt="catalog">
                     Ремонт планшетов
+                    <img src="img/svg/catalog-arrow.svg" alt="arrow" class="services__arrow">
                 </a>
                 <a href="" class="services__item">
                     <img src="img/svg/laptopRep.svg" alt="catalog">
                     Ремонт ноутбуков
+                    <img src="img/svg/catalog-arrow.svg" alt="arrow" class="services__arrow">
                 </a>
             </nav>
+        </div>
+    </header>
+    <header class="mobile-header">
+        <div class="container">
+            <div class="mobile-header__contacts">
+                <a href="" class="mobile-link"><img src="img/svg/logo-mob.svg" alt="logo"></a>
+                <a class="header__phone-number" href="tel:+73512207704">+7 351 220 77 04</a>
+            </div>
+            <div class="mobile-header__options">
+                <button class="burger-btn"><img src="img/svg/burger.svg" alt="burger"></button>
+                <button class="mobile-header__button">Связаться</button>
+            </div>
+        </div>
+        <div class="burger-menu">
+            <div class="burger-menu__wrapper">
+                <h3 class="burger-menu__title">Меню</h3>
+                <ul class="burger-menu__list">
+                    <li>
+                        <a href="" class="burger-menu__link">
+                            <img src="img/svg/Appoy.svg" alt="catalog">
+                            Ремонт Apple
+                            <img src="img/svg/catalog-arrow.svg" alt="arrow" class="burger-menu__arrow">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="burger-menu__link">
+                            <img src="img/svg/phoneRep.svg" alt="catalog">
+                            Ремонт смартфонов
+                            <img src="img/svg/catalog-arrow.svg" alt="arrow" class="burger-menu__arrow">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="burger-menu__link">
+                            <img src="img/svg/tebletRep.svg" alt="catalog">
+                            Ремонт планшетов
+                            <img src="img/svg/catalog-arrow.svg" alt="arrow" class="burger-menu__arrow">
+                        </a>
+                    </li>   
+                    <li>
+                        <a href="" class="burger-menu__link">
+                            <img src="img/svg/laptopRep.svg" alt="catalog">
+                            Ремонт ноутбуков
+                            <img src="img/svg/catalog-arrow.svg" alt="arrow" class="burger-menu__arrow">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="burger-menu__link">
+                            <img src="img/svg/ps.svg" alt="catalog">
+                            Ремонт игровых приставок
+                            <img src="img/svg/catalog-arrow.svg" alt="arrow" class="burger-menu__arrow">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="burger-menu__close-button"><img src="img/svg/close.svg" alt="close"></button>
         </div>
     </header>
     <section class="introduction">
         <div class="container introduction__container">
             <div class="introduction__box">
                 <h1 class="introduction__title">Сервисный центр</h1>
-                <p class="introduction__description">Ремонт планшетов в Челябинске. Бесплатно продиагностируем и быстро починим любую поломку. Гарантия 3 месяца</p>
+                <p class="introduction__description">Ремонт планшетов в Челябинске. Бесплатно продиагностируем и быстро починим любую поломку. <span class="introduction__description-garant">Гарантия 3 месяца</span></p>
                 <div class="introduction__button">
-
-                    Записаться на диагностику
+                     Записаться на диагностику
                 </div>
                 <div class="pluses">
                     <div class="pluses__item">
@@ -103,6 +161,7 @@
     </section>
     <section class="personsSection">
         <div class="container">
+            <p class="call-time">Звоните, пн-вс 10:00 - 20:00</p>
             <h2 class="section-title">Ремонт осуществляется первоклассными специалистами</h2>
             <p class="section-subtitle">Средний опыт работы наших мастеров 4 года</p>
             <div class="relative">
@@ -167,6 +226,8 @@
         </div>
     </section>
 
+
+    <script src="js/jquery.min.js"></script>
     <script src="swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
