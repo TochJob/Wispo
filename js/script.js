@@ -76,6 +76,4 @@ $(document).ready(()=>{
       observer.observe(elm);
     }
 
-=======
->>>>>>> a3a346d0acb2dc46e9c30bde445640d89f6ca3eb
 })
