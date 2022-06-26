@@ -58,6 +58,7 @@ $(document).ready(()=>{
     //burger end
 
 
+<<<<<<< HEAD
      // Плавное появление элеменитов при прокрутке
      function onEntry(entry) {
       entry.forEach(change => {
@@ -76,4 +77,6 @@ $(document).ready(()=>{
       observer.observe(elm);
     }
 
+=======
+>>>>>>> a3a346d0acb2dc46e9c30bde445640d89f6ca3eb
 })
